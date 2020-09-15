@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+.article{
+  color:#FFFFFF;
+  font-style: normal;
+  font-family: Open Sans;
+  margin-left: 100px;
+  margin-right: 260px;
+}
+
+.header{
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  margin: 35px 50px 25px 20px;
+}
+.image{
+  width: 800px;
+  margin-top: 20px;
+}
+
+.newComment{
+  resize: none;
+  padding: 5px 5px 5px 10px;
+  margin: 8px 0 8px 0;
+  background: #29293D;
+  min-height: 70px;
+  min-width: 300px;
+  border-radius: 6px;
+  border: none;
+}
+
+.addBtn{
+  margin-top:40px;
+  margin-bottom: 30px;
+}
+
+.sendBtn{
+  margin-bottom: 20px;
+}
+
+.commTitle{
+  font-weight: 650;
+  font-size: 20px;
+  display: flex;
+  margin: 30px 0;
+}
+
+.commentComponent{
+  border-top: #cccccc solid 1px;
+  border-bottom: #cccccc solid 1px;
+}
+
+.commentComponent:first-child{
+  margin-top: 100px;
+}

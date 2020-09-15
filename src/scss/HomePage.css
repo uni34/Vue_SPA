@@ -1,0 +1,35 @@
+.homepage{
+  display: flex;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  font-family: Open Sans;
+  font-style: normal;
+  color: #FFFFFF;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns{
+  display: flex;
+}
+
+.or{
+  margin: 10px;
+}
+
+.link{
+  margin-top: 30px;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.greeting{
+  font-size: 40px;
+  font-weight: 600;
+}

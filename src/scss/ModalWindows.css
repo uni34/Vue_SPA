@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+.signIn{
+    background: rgba(41, 41, 61, 0.9);
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+    font-family: Open Sans;
+    font-style: normal;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.m_window{
+    background: #2D2D42;
+    border-radius: 10px;
+    width: 400px;
+    height: 360px;
+}
+
+.title{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.closer{
+  color: #789;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.headGroup{
+  margin-left: 140px;
+  display: flex;
+  justify-content: space-around;
+}
+.reg{
+  margin-left: 100px;
+}
+input{
+    padding: 5px 5px 5px 10px;
+    margin: 8px 0 8px 0;
+    background: #29293D;
+    max-height: 30px;
+    min-width: 300px;
+}
+
+label{
+  margin: 4px;
+}
+
+.inputGroup{
+  align-content: space-between;
+  margin: 10px 10px 0 35px;
+}
+
+.centerPosition{
+  display: flex;
+  justify-content: center;
+}
+
+.enterBtn{
+    margin-top: 40px;
+}
