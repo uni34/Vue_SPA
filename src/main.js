@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import Router from 'vue-router'
+import store from './store/store.js'
 // import vuex from './vuex/index.js'
 
 import HomePage from './pages/HomePage.vue'
@@ -22,5 +23,6 @@ export const router = new Router({
 new Vue({
   render: h => h(App),
   router,
+  store,
   // vuex,
 }).$mount('#app')

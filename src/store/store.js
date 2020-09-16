@@ -4,7 +4,7 @@ import Axios from 'axios';
 
 Vue.use(Vuex);
 
-export const store = new Vuex.Store({
+export default new Vuex.Store({
   state: {
     users: []
   },
@@ -20,11 +20,15 @@ export const store = new Vuex.Store({
   },
   actions: {
     GET_USER({commit}){
-      return Axios('src\store\modules\info.json', {
+      return Axios('http://localhost:3000/users', {
         method: "GET"
       })
       .then((users) => {
-        commit('SET_USER', users.users);
+        commit('SET_USER', users);
+        return users;
+      })
+      .catch((error)=>{
+        console.log(error);
       })
     }
   },

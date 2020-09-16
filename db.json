@@ -1,0 +1,9 @@
+{
+  "users": [
+    { "id": 1, "login": "test", "password": "test" }
+  ],
+  "comments": [
+    { "id": "test", "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}
