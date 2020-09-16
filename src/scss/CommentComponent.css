@@ -2,3 +2,12 @@
     margin: 20px 0 20px 10px;
     min-width: 70px;
 }
+
+.head{
+  display: flex;
+  justify-content: space-between;
+}
+
+.date{
+  color: #789;
+}
