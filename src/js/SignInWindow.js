@@ -1,4 +1,4 @@
-// import { mapActions } from 'vuex'
+import { mapActions } from 'vuex'
 
 export default {
     name: "SignInWindow",
@@ -12,9 +12,7 @@ export default {
         }
     },
     methods: {
-    //   ...mapActions({
-    //   'GET_USER'
-    // }),
+
       submit(){
           if(this.login == 'test' && this.password == 'test'){
             this.$emit('login');
@@ -24,6 +22,7 @@ export default {
       },
     },
     mounted() {
-        // this.GET_USER()
+        this.$store.dispatch('GET_USER')
     },
+
 }
