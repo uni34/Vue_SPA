@@ -3,6 +3,15 @@
 Login: test
 Password: test
 
+## Install JSON server
+```
+npm install -g json-server
+```
+### Starts JSON server
+```
+json-server --watch db.json
+```
+
 ## Project setup
 ```
 npm install
